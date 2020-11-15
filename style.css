@@ -1,0 +1,29 @@
+body {
+	background-color: #100e17;
+	color: #fff;
+}
+.container {
+	font-family: 'Raleway', sans-serif;
+	position: fixed; /* or absolute */
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.thick {
+	border: 0;
+	height: 5px;
+	margin: 2rem 0;
+	background-image: linear-gradient(90deg, #ff8a00, #e52e71);
+	border-radius: 5px;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+
+#price {
+	text-align: center;
+}
