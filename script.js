@@ -10,7 +10,7 @@ const requestOptions = {
 
 const OUNCE_GRAM = 28.3495;
 const INR_NPR = 1.6;
-const GRAM_TOLA = 10;
+const GRAM_TOLA = 11.664;
 
 
 const price = fetch('https://www.goldapi.io/api/XAU/INR', requestOptions)
